@@ -160,7 +160,7 @@ export default function HomePage() {
 
         {/* 최근 7일 */}
         <div style={{ marginTop: 6 }}>
-          <div style={{ fontWeight: 900, marginBottom: 10 }}>최근</div>
+          <div style={{ fontWeight: 900, marginBottom: 10 }}>최근 7일</div>
 
           {loading ? (
             <div style={{ color: "gray" }}>불러오는 중…</div>
@@ -193,7 +193,7 @@ export default function HomePage() {
 
               {/* 최근 메모 */}
               <section style={{ display: "grid", gap: 10 }}>
-                <div style={{ fontWeight: 800, color: "rgba(255,255,255,0.85)" }}>최근</div>
+                <div style={{ fontWeight: 800, color: "rgba(255,255,255,0.85)" }}>메모</div>
                 {recentMemos.length === 0 ? (
                   <div style={{ color: "gray" }}>최근 7일 메모가 없습니다.</div>
                 ) : (
