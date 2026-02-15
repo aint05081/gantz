@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   <Link href="/">Home</Link>
   <Link href="/photos">사진</Link>
   <Link href="/memos">메모</Link>
-  <Link href="/people">기본 정보</Link>
+  <Link href="/people">AGENT</Link>
   <Link href="/login">간츠</Link>
 </div>
 
