@@ -22,7 +22,7 @@ type Memo = {
 const YOUTUBE_URL = "https://youtu.be/kuQ8kiBuFd4?si=afx3Gy9G_0rSwl5v";
 
 const LINKS: { label: string; href: string }[] = [
-  { label: "푸슝", href: "https://pushoong.com" },
+  { label: "푸슝", href: "https://pushoong.com/ask/3216401628/" },
 ];
 
 function toYouTubeEmbedUrl(url: string) {
