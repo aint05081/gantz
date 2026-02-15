@@ -160,7 +160,7 @@ export default function HomePage() {
 
         {/* 최근 7일 */}
         <div style={{ marginTop: 6 }}>
-          <div style={{ fontWeight: 900, marginBottom: 10 }}>최근 7일</div>
+          <div style={{ fontWeight: 900, marginBottom: 10 }}>최근</div>
 
           {loading ? (
             <div style={{ color: "gray" }}>불러오는 중…</div>
@@ -170,7 +170,7 @@ export default function HomePage() {
               <section style={{ display: "grid", gap: 10 }}>
                 <div style={{ fontWeight: 800, color: "rgba(255,255,255,0.85)" }}>사진</div>
                 {recentPhotos.length === 0 ? (
-                  <div style={{ color: "gray" }}>최근 7일 사진이 없어.</div>
+                  <div style={{ color: "gray" }}>최근 7일 사진이 없습니다.</div>
                 ) : (
                   <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 8 }}>
                     {recentPhotos.map((p) => (
@@ -193,9 +193,9 @@ export default function HomePage() {
 
               {/* 최근 메모 */}
               <section style={{ display: "grid", gap: 10 }}>
-                <div style={{ fontWeight: 800, color: "rgba(255,255,255,0.85)" }}>메모</div>
+                <div style={{ fontWeight: 800, color: "rgba(255,255,255,0.85)" }}>최근</div>
                 {recentMemos.length === 0 ? (
-                  <div style={{ color: "gray" }}>최근 7일 메모가 없어.</div>
+                  <div style={{ color: "gray" }}>최근 7일 메모가 없습니다.</div>
                 ) : (
                   <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 8 }}>
                     {recentMemos.map((m) => (
